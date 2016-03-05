@@ -10,9 +10,14 @@ gem "jquery-rails"
 gem "turbolinks", "~> 5.x"
 gem "jbuilder", "~> 2.0"
 gem "bcrypt", "~> 3.1.7"
+gem "materialize-sass"
 
 group :development, :test do
   gem "pry"
+  %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].
+    each do |lib|
+    gem lib, git: "https://github.com/rspec/#{lib}.git", branch: "master"
+  end
 end
 
 group :development do
