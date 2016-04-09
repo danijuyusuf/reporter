@@ -1,3 +1,5 @@
+require "coveralls"
+Coveralls.wear!
 require "factory_girl_rails"
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

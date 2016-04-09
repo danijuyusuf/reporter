@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "rails", ">= 5.0.0.beta3", "< 5.1"
-gem "sqlite3"
 gem "puma"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
@@ -12,8 +11,11 @@ gem "jbuilder", "~> 2.0"
 gem "bcrypt", "~> 3.1.7"
 gem "materialize-sass"
 gem "annotate"
+gem "figaro"
+gem "coveralls", require: false
 
 group :development, :test do
+  gem "sqlite3"
   gem "pry"
   %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].
     each do |lib|
