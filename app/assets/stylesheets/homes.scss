@@ -1,3 +1,60 @@
 div {
   border: 1px block red;
 }
+
+.row.top-nav {
+  min-height: 2.5em;
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  font-size: 11px;
+
+  p {
+    margin: 0;
+    padding: 5px 3em 0 3em;
+  }
+}
+
+.row.logo-line {
+  margin-bottom: 0;
+}
+
+.row.news-category {
+  background-color: #f5f5f5;
+}
+
+.col.l2.news-item {
+  text-transform: uppercase;
+  color: black;
+  min-height: 3em;
+  margin-top: 0;
+  padding-top: 0.8em;
+}
+
+.row.major-image {
+
+}
+
+.col.l6.left-image {
+  background-color: black;
+}
+
+.col.l6.right-image {
+  margin: 0;
+  padding: 0;
+}
+
+.row.bottom-image {
+  margin: 0;
+  padding: 0 11.25px;
+}
+
+.row.top-image {
+  margin: 0 ;
+  padding: 0 11.25px;
+}
+
+.col.l6.bottom-part {
+  margin: 0;
+  padding: 0;
+}
