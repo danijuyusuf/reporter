@@ -13,6 +13,7 @@ gem "materialize-sass"
 gem "annotate"
 gem "figaro"
 gem "coveralls", require: false
+gem "font-awesome-rails"
 
 group :development, :test do
   gem "sqlite3"
